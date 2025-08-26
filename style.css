@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+}
+
+.nav-img{
+    text-align: center;
+}
+
+li:hover{
+    transform: scale(1.01);
+    transition: all 0s ease-in-out;
+}
+
+a:hover{
+     color:red;
+     transition: all os ease-in-out;
+}

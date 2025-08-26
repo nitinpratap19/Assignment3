@@ -1,0 +1,48 @@
+*{
+    margin: 10px;
+    padding: 0.5rem;
+}
+.main{
+    background-color: rgb(223, 222, 222);
+}
+.main_heading {
+    text-align: center;
+    color: purple;
+}
+.inner_main{
+    background-color: #ebebff;
+}
+h2 {
+    background-color: #e5dbff;
+}
+label {
+    display: inline-block;
+    width: 15rem;
+}
+input {
+    display: inline-block;
+    width: 15rem;
+}
+select {
+    display: inline-block;
+    width: 16.3rem;
+}
+textarea {
+    width: 100rem;
+}
+.address {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 10rem;
+    height: 2rem;
+}

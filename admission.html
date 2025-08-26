@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+     <div class="nav-img"><img src="./Nitw logo.png" alt="NITW"></div>
+    <nav>
+        <ul>
+            <li><div class="home"> <a href="index.html">Home</a></div></li>
+            <li><div class="dept"> <a href="./dept.html">Dept</a></div></li>
+            <li><div class="admission"> <a href="./admission.html">Admission Page</a></div></li>
+            <li><div class="gallery"> <a href="./gallery.html">Gallery</a></div></li>
+            <li><div class="aboutus"><a href="./aboutus.html">About Us</a></div></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <div class="main">
+        <h1 class="main_heading">
+            STUDENT REGISTRATION FORM
+        </h1>
+        <div class="inner_main">
+            <form action="./action.php">
+                <h2>Basic Information</h2>
+                    <label for="firstName">First Name:*</label>
+                <input type="text" name="firstName" required>
+                <label for="middleName">Middle Name*</label>
+                <input type="text" name="middleName" required>
+                <label for="lastName">Last Name*</label>
+                <input type="text" name="lastName" required>
+                <br>
+                <label for="rollNo">Roll No.:*</label>
+                <input type="text" name="rollNo" required>
+                <br>
+                <label for="email">Email ID:*</label>
+                <input type="email" name="email" required>
+                <br>
+                <label for="phoneNo">Phone No.:*</label>
+                <input type="number" name="phoneNo" required>
+                <br>
+                <label for="userId">User ID:*</label>
+                <input type="text" name="userId" required>
+                <br>
+                <label for="password">Password:* </label>
+                <input type="password" name="rollNo" required>
+                <br>
+                <label for="rePassword">Re-Enter Password:*</label>
+                <input type="password" name="rePassword" required>
+                <br>
+                <label for="branch">Branch:*</label>
+                <select name="branch" required>
+                <option value="CSE" >CSE</option>
+                <option value="CDS" >CDS</option>
+                <option value="CE" >CE</option>
+            </select>
+            <label for="yearOfStudy">Year of Studying*</label>
+                <select name="yearOfStudy" required>
+                    <option value="first" >First</option>
+                <option value="second" >Second</option>
+                <option value="third" >Third</option>
+                <option value="fourth" >Fourth</option>
+                </select>
+                <br>
+                <label for="photo">Upload Photo*</label>
+                <input type="file" name="photo" required>
+                <br>
+                <h2>Personal Details</h2>
+                <label for="fatherName">Father's Name:*</label>
+                <input type="text" name="fatherName" required>
+                <label for="fatherNo">Contact No.:*</label>
+                <input type="number" name="fatherNo" required>
+                <br>
+                <label for="motherName">Mother's Name*</label>
+                <input type="text" name="motherName" required>
+                <label for="motherNo">Contact No.:*</label>
+                <input type="number" name="motherNo" required>
+                <br>
+                <label for="birthDate">Date Of Birth*</label>
+                <input type="date" name="birthDate" required>
+                <label for="aadharNo">Aadhar No.:*</label>
+                <input type="number" name="aadharNo" required>
+                <br>
+                <h2>Address</h2>
+                <div class="address">
+                    <label for="address1">Address1*</label>
+                <textarea name="address1" cols="50" rows="2" required></textarea>
+                <br><br>
+                <label for="address2">Address2</label>
+                <textarea name="address2" cols="50" rows="2"></textarea>
+                </div>
+                <br>
+                <div class="btn">
+                    <button>Register</button>
+                <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+</body>
+</html>
